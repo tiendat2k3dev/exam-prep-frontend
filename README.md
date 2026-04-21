@@ -66,16 +66,6 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 - Ant Design / Bootstrap
 - JWT Authentication
 
-### Core Libraries
-- **State Management**: React Context API
-- **UI Components**: Ant Design, Bootstrap 5
-- **Routing**: React Router DOM
-- **API Client**: Axios
-- **Notifications**: React Toastify
-- **Icons**: FontAwesome, React Icons
-- **Date Handling**: Dayjs
-- **Build Tool**: Vite
-
 ## Key Features
 - Role-based UI (Admin, Teacher, Student)
 - Authentication & Authorization (JWT)
