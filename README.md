@@ -45,26 +45,27 @@ Phát triển ứng dụng web thi trắc nghiệm với 3 vai trò: Admin, Teac
 
 - **Class Exam Management**  
   ![Classes](src/assets/images/quanlylop.png)
-
 ### Student
 
- **Student Dashboard**  
-  ![Dashboard](src/assets/images/dashboard_student.png)
+**Student Dashboard**  
+![Dashboard](src/assets/images/dashboard_student.png)
 
- **Practice Exam**  
-  ![Practice Exam](src/assets/images/thithu.png)
+**Practice Exam**  
+![Practice Exam](src/assets/images/thithu.png)
 
- **Official Exam**  
-  ![Official Exam](src/assets/images/thithat.png)
+**Official Exam**  
+![Official Exam](src/assets/images/thithat.png)
 
- **Practice Exam History**  
-  ![Practice History](src/assets/images/lichsuthithu.png)
 
- **Official Exam History**  
-  ![Official History](src/assets/images/lichsuthithat.png)
+**Do Exam**  
+![Do Exam](src/assets/images/lambaithi.png)
 
- **Favorite Exams**  
-  ![Favorites](src/assets/images/dethiyeuthich.png)
+**Practice Exam History**  
+![Practice History](src/assets/images/lichsuthithu.png)
+
+**Official Exam History**  
+![Official History](src/assets/images/lichsuthithat.png)
+
 ### Modals & Features
 **Update Profile Modal**  
 ![Update Profile](src/assets/images/capnhatthongtin.png)
