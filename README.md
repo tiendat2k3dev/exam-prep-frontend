@@ -85,13 +85,11 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 - Pagination & Filtering
 
 ## My Contributions
-- Developed complete UI for Admin (user/class management) and Student (exams/history/dashboard) roles; collaborated with team members on Teacher module implementation
-- Built reusable components and layouts: Header, Sidebar (per role), BaseTable, AppPagination, modals (CRUD)
-- Implemented authentication flow using Context API, JWT, protected routes, and role-based access
-- Integrated RESTful APIs with Axios interceptors for auth/error handling
-- Handled advanced features: Dynamic filtering/pagination, exam timers/previews, charts, responsive design
-- Deployed frontend to Vercel with CI/CD integration
-- Added comprehensive error handling, loading states, and user feedback (toasts)
+- Developed UI for multiple roles (Admin, Teacher, Student)
+- Built reusable layout (Header, Sidebar)
+- Implemented authentication flow with Context API
+- Integrated RESTful APIs using Axios
+- Handled routing & protected routes
 
 ## Quick Setup
 1. Clone repo and `cd` into project
