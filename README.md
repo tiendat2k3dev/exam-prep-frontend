@@ -121,11 +121,10 @@ Phát triển ứng dụng web thi trắc nghiệm với 3 vai trò: Admin, Teac
 - Thi thử (practice) và thi thật (official) với timer
 - Luyện tập (Bailuyentap, LichSuluyentap)
 ## Vai trò của tôi
-- **Frontend Developer**: Thiết kế và implement toàn bộ UI/UX với React 19 + Ant Design.
-- Xây dựng role-based authentication (AuthContext, hooks, protected routes).
-- Phát triển components tái sử dụng: tables, modals, filters, pagination, charts.
-- Tích hợp API services (axios) cho CRUD operations trên users/classes/exams/questions/students.
-- Tạo layouts responsive cho 3 roles với custom CSS.
-- Chụp và organize screenshots cho documentation.
-- Deploy demo trên Vercel với vercel.json config.
-- Ensure error handling, loading states, và performance với Vite.
+ Xây dựng giao diện đăng nhập, quên mật khẩu.
+- Phát triển UI cho các vai trò: Admin, Teacher, Student.
+- Thiết kế và triển khai layout (Header, Sidebar, Navigation) cho Admin và Student.
+- Tích hợp API và hiển thị dữ liệu động trên giao diện.
+- Xử lý routing và điều hướng bằng React Router.
+- Hiển thị thông báo và xử lý trạng thái người dùng (loading, error, success).
+- Triển khai dự án lên Vercel (CI/CD
