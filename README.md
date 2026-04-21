@@ -1,136 +1,102 @@
-# Hệ thống luyện thi Trắc nghiệm
-### Live Demo: 
-frontend 
-https://thitracnghiem-sandy.vercel.app
-
-
-Backend:http://localhost:8080/api
+# Exam Preparation System (Frontend)
+A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, questions, and track exam results with role-based dashboards, authentication, and CRUD operations.
 
 [![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
 
-## Overview
-Phát triển ứng dụng web thi trắc nghiệm với 3 vai trò: Admin, Teacher, Student, hỗ trợ quản lý lớp học, đề thi và theo dõi kết quả học tập.
+## Demo
+- **Frontend**: [Live Demo](https://thitracnghiem-sandy.vercel.app)
+- **Backend**: http://localhost:8080/api (local development)
 
 ## Screenshots
+
 ### Login & Authentication
-
 ![Login](src/assets/images/login.png)
-### Forgot Password  
+
 ![Forgot Password](src/assets/images/quenmatkhau.png)
-### Verification & Password Reset
-![Verification](src/assets/images/xacthucvadoimatkhau.png)
-### Admin
-- **Dashboard**  
-  ![Dashboard](src/assets/images/dashboard.png)
 
-- **User Management**  
-  ![User](src/assets/images/nguoidung.png)
+![Verification & Password Reset](src/assets/images/xacthucvadoimatkhau.png)
 
-- **Class Management**  
-  ![Class](src/assets/images/lop.png)
+### Admin Dashboard & Management
+![Admin Dashboard](src/assets/images/dashboard.png)
 
-- **Assignment / Class Assignment**  
-  ![Assignment](src/assets/images/phancong.png)
+![User Management](src/assets/images/nguoidung.png)
 
-### Teacher
+![Class Management](src/assets/images/lop.png)
 
-- **Teacher Dashboard**  
-  ![Dashboard](src/assets/images/dashboard_teacher.png)
+![Teacher Assignment](src/assets/images/phancong.png)
 
-- **Exam Management**  
-  ![Exam](src/assets/images/quanlydethi.png)
+### Teacher Dashboard & Management
+![Teacher Dashboard](src/assets/images/dashboard_teacher.png)
 
-- **Question Management**  
-  ![Questions](src/assets/images/quanlycauhoi.png)
+![Exam Management](src/assets/images/quanlydethi.png)
 
-- **Category Management**  
-  ![Categories](src/assets/images/quanlydanhmuc.png)
+![Question Management](src/assets/images/quanlycauhoi.png)
 
-- **Student Management**  
-  ![Students](src/assets/images/quanlyhocvien.png)
+![Category Management](src/assets/images/quanlydanhmuc.png)
 
-- **Class Exam Management**  
-  ![Classes](src/assets/images/quanlylop.png)
-### Student
+![Student Management](src/assets/images/quanlyhocvien.png)
 
-**Student Dashboard**  
-![Dashboard](src/assets/images/dashboard_student.png)
+![Class Exam Management](src/assets/images/quanlylop.png)
 
-**Practice Exam**  
+### Student Dashboard & Exams
+![Student Dashboard](src/assets/images/dashboard_student.png)
+
 ![Practice Exam](src/assets/images/thithu.png)
 
-**Official Exam**  
 ![Official Exam](src/assets/images/thithat.png)
 
+![Taking Exam](src/assets/images/lambaithi.png)
 
-**Do Exam**  
-![Do Exam](src/assets/images/lambaithi.png)
-
-**Practice Exam History**  
 ![Practice History](src/assets/images/lichsuthithu.png)
 
-**Official Exam History**  
 ![Official History](src/assets/images/lichsuthithat.png)
 
 ### Modals & Features
-**Update Profile Modal**  
 ![Update Profile](src/assets/images/capnhatthongtin.png)
- **Change Password Modal**  
 
 ![Change Password](src/assets/images/capnhatmatkhau.png)
-**404 Not Found Page** 
-![404 Page](src/assets/images/404.png)
 
-## 🛠️ Tech Stack
+![404 Not Found](src/assets/images/404.png)
 
+## Tech Stack
 ![React](https://img.shields.io/badge/React-19.2.4-blue?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7.3.1-orange?style=flat&logo=vite)
 ![Ant Design](https://img.shields.io/badge/Ant%20Design-6.3.2-yellow?style=flat&logo=antdesign)
 ![React Router](https://img.shields.io/badge/React%20Router-7.13.1-red?style=flat&logo=reactrouter)
 
-### Thư viện chính
-- **Quản lý state**: React Context API.
-- **UI**: Ant Design, Bootstrap 5.
-- **Routing**: React Router DOM.
-- **Gọi API**: Axios.
-- **Thông báo**: React Toastify.
-- **Icons**: FontAwesome, React Icons.
-- **Date handling**: Dayjs.
-- **Build tool**: Vite.
-## Tính năng
-### Chung
-- Đăng nhập/Đăng ký, quên mật khẩu, xác thực và đổi mật khẩu
-- Bảo vệ routes theo vai trò (Admin/Teacher/Student) với AuthContext và ProtectedRoute
-- Responsive layouts với Sider/Header tùy role
-- Quản lý bảng với filter, search, pagination, actions (BaseTable, AppPagination)
-- Modals CRUD (add/edit/view) cho entities
-- Error handling (ErrorBoundary, 404 page)
-- Toast notifications và charts (ScoreChart)
+### Core Libraries
+- **State Management**: React Context API
+- **UI Components**: Ant Design, Bootstrap 5
+- **Routing**: React Router DOM
+- **API Client**: Axios
+- **Notifications**: React Toastify
+- **Icons**: FontAwesome, React Icons
+- **Date Handling**: Dayjs
+- **Build Tool**: Vite
 
-### Admin
-- Dashboard thống kê
-- Quản lý users (CRUD, table/filter)
-- Quản lý classes (CRUD, add users)
-- Phân công teacher cho classes (assignTeacher)
+## Key Features
+- **Role-based UI**: Separate dashboards and layouts for Admin, Teacher, Student
+- **Authentication & Authorization**: JWT-based login, protected routes with AuthContext
+- **Dynamic Data Handling**: REST API integration with tables, pagination, filtering, search
+- **CRUD Operations**: Reusable modals for create/edit/view across entities (users, classes, exams, questions)
+- **Exam Management**: Practice/official exams, timers, history tracking, favorites
+- **Dashboards & Analytics**: Stats cards, charts (ScoreChart), QuickActions
+- **Error Handling**: ErrorBoundary, 404 page, toast notifications
+- **Responsive Design**: Mobile-friendly sider/header layouts
 
-### Teacher
-- Dashboard với QuickActions và ScoreChart
-- Quản lý exams (CRUD, preview, assign to class)
-- Quản lý questions (CRUD)
-- Quản lý categories
-- Quản lý students và exam-classes
+## My Contributions
+- Developed complete UI for multiple roles: Admin (user/class management), Teacher (exams/questions/categories/students), Student (exams/history/dashboard)
+- Built reusable components and layouts: Header, Sidebar (per role), BaseTable, AppPagination, modals (CRUD)
+- Implemented authentication flow using Context API, JWT, protected routes, and role-based access
+- Integrated RESTful APIs with Axios interceptors for auth/error handling
+- Handled advanced features: Dynamic filtering/pagination, exam timers/previews, charts, responsive design
+- Deployed frontend to Vercel with CI/CD integration
+- Added comprehensive error handling, loading states, and user feedback (toasts)
 
-### Student
-- Dashboard cá nhân
-- Lịch sử thi thử/thi thật
-- Đề thi yêu thích
-- Thi thử (practice) và thi thật (official) với timer
-- Luyện tập (Bailuyentap, LichSuluyentap)
-## Vai trò của tôi
-Phát triển giao diện người dùng cho nhiều vai trò: Admin, Teacher, Student
-Xây dựng layout tái sử dụng gồm: Header, Sidebar, cấu trúc giao diện chính
-Xây dựng luồng xác thực (authentication) sử dụng Context API + JWT
-Tích hợp API RESTful từ backend bằng Axios
-Xử lý routing và protected routes để phân quyền truy cập
-- Hiển thị thông báo và xử lý trạng thái người dùng (loading, error, success).
-- Triển khai dự án lên Vercel (CI/CD
+## Quick Setup
+1. Clone repo and `cd` into project
+2. `npm install`
+3. `npm run dev` (runs on http://localhost:5173)
+4. Backend required at http://localhost:8080/api
+
+
