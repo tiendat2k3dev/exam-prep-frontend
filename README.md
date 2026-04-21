@@ -1,6 +1,8 @@
 # Hệ thống luyện thi Trắc nghiệm
+### Live Demo: 
+https://thitracnghiem-sandy.vercel.app
 
-[![Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
+[![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
 
 ## Overview
 Phát triển ứng dụng web thi trắc nghiệm với 3 vai trò: Admin, Teacher, Student, hỗ trợ quản lý lớp học, đề thi và theo dõi kết quả học tập.
@@ -121,10 +123,10 @@ Phát triển ứng dụng web thi trắc nghiệm với 3 vai trò: Admin, Teac
 - Thi thử (practice) và thi thật (official) với timer
 - Luyện tập (Bailuyentap, LichSuluyentap)
 ## Vai trò của tôi
- Xây dựng giao diện đăng nhập, quên mật khẩu.
-- Phát triển UI cho các vai trò: Admin, Teacher, Student.
-- Thiết kế và triển khai layout (Header, Sidebar, Navigation) cho Admin và Student.
-- Tích hợp API và hiển thị dữ liệu động trên giao diện.
-- Xử lý routing và điều hướng bằng React Router.
+Phát triển giao diện người dùng cho nhiều vai trò: Admin, Teacher, Student
+Xây dựng layout tái sử dụng gồm: Header, Sidebar, cấu trúc giao diện chính
+Xây dựng luồng xác thực (authentication) sử dụng Context API + JWT
+Tích hợp API RESTful từ backend bằng Axios
+Xử lý routing và protected routes để phân quyền truy cập
 - Hiển thị thông báo và xử lý trạng thái người dùng (loading, error, success).
 - Triển khai dự án lên Vercel (CI/CD
