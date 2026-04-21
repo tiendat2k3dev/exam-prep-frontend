@@ -59,10 +59,11 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 ![404 Not Found](src/assets/images/404.png)
 
 ## Tech Stack
-![React](https://img.shields.io/badge/React-19.2.4-blue?style=flat&logo=react)
-![Vite](https://img.shields.io/badge/Vite-7.3.1-orange?style=flat&logo=vite)
-![Ant Design](https://img.shields.io/badge/Ant%20Design-6.3.2-yellow?style=flat&logo=antdesign)
-![React Router](https://img.shields.io/badge/React%20Router-7.13.1-red?style=flat&logo=reactrouter)
+- ReactJS (Hooks, Context API)
+- React Router
+- Axios
+- Ant Design / Bootstrap
+- JWT Authentication
 
 ### Core Libraries
 - **State Management**: React Context API
