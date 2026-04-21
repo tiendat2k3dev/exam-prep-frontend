@@ -77,14 +77,12 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 - **Build Tool**: Vite
 
 ## Key Features
-- **Role-based UI**: Separate dashboards and layouts for Admin, Teacher, Student
-- **Authentication & Authorization**: JWT-based login, protected routes with AuthContext
-- **Dynamic Data Handling**: REST API integration with tables, pagination, filtering, search
-- **CRUD Operations**: Reusable modals for create/edit/view across entities (users, classes, exams, questions)
-- **Exam Management**: Practice/official exams, timers, history tracking, favorites
-- **Dashboards & Analytics**: Stats cards, charts (ScoreChart), QuickActions
-- **Error Handling**: ErrorBoundary, 404 page, toast notifications
-- **Responsive Design**: Mobile-friendly sider/header layouts
+- Role-based UI (Admin, Teacher, Student)
+- Authentication & Authorization (JWT)
+- Protected Routes
+- Dynamic data rendering from REST API
+- Reusable components (Table, Modal, Form)
+- Pagination & Filtering
 
 ## My Contributions
 - Developed complete UI for Admin (user/class management) and Student (exams/history/dashboard) roles; collaborated with team members on Teacher module implementation
