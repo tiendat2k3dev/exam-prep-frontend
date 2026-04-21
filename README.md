@@ -1,7 +1,6 @@
-# Exam Preparation System
+# Exam Preparation System (Frontend)
 # Overview
-
-A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, questions, and track exam results with role-based dashboards, authentication, and CRUD operations.
+A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, and results.
 
 [![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
 
