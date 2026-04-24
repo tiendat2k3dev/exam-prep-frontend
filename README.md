@@ -85,7 +85,7 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 ## Quick Setup
 ```bash
 # Clone repository
-git clone <your-repo-url>
+git clone https://github.com/tiendat2k3dev/exam-prep-frontend
 
 # Enter project folder
 cd exam-prep-frontend
@@ -111,7 +111,7 @@ npm run build
 ## Project Structure
 
 ```text
-quan-ly-nguoi-dung-frontend-v1/
+exam-prep-frontend/
 ├── .env                     # Environment variables
 ├── package.json
 ├── README.md
@@ -120,10 +120,10 @@ quan-ly-nguoi-dung-frontend-v1/
     ├── assets/             # Images, icons, static files
     ├── components/         # Reusable UI components
     ├── pages/              # Main application pages
-    ├── services/           # API calls (auth, account, department)
-    ├── hooks/              # Custom hooks (useAuth)
-    ├── contexts/           # Global state / AuthContext
-    ├── utils/              # Helper functions
+    ├── services/           # API calls
+    ├── hooks/              # Custom hooks
+    ├── context/            # Global state / AuthContext
+    ├── route/              # Route-level guards and navigation flow
     ├── layouts/            # Header / Sidebar layouts
     ├── App.jsx
     └── main.jsx
