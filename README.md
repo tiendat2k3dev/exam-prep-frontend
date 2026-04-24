@@ -4,9 +4,10 @@
 A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, and results
 
 
-[![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
 
 ## Demo
+[![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
+
 - **Frontend (Vercel)**: [https://thitracnghiem-sandy.vercel.app](https://thitracnghiem-sandy.vercel.app)
 - **Backend (local)**: `http://localhost:8080/api`
 
