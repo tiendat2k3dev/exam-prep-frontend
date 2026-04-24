@@ -1,7 +1,8 @@
 # Exam Preparation System (Frontend)
 
 ## Overview
-Production-style React application for online exam management with a multi-role architecture (Admin, Teacher, Student), role-based UI rendering, JWT authentication, and protected route control.
+A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, and results
+
 
 [![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
 
