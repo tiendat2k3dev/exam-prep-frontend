@@ -129,5 +129,7 @@ exam-prep-frontend/
     ├── App.jsx
     └── main.jsx
 ```
-
-
+## GitHub Profile Optimization
+- **Suggested bio**: `Frontend Developer | ReactJS | Building scalable UI`
+- **Recommended pinned repositories**:
+  - `exam-prep-frontend`
