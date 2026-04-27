@@ -85,7 +85,9 @@ Vercel (Deployment & CI/CD)
 
 
 
-Installation
+## Installation
+
+```bash
 git clone https://github.com/tiendat2k3dev/exam-prep-frontend.git
 cd exam-prep-frontend
 npm install
@@ -114,7 +116,12 @@ exam-prep-frontend/
     ├── App.jsx
     └── main.jsx
 ```
-## GitHub Profile Optimization
-- **Suggested bio**: `Frontend Developer | ReactJS | Building scalable UI`
-- **Recommended pinned repositories**:
-  - `exam-prep-frontend`
+## Notes
+
+- This project is part of a team of 7 members  
+- My main responsibility: Frontend development & integration
+
+## Related Repositories
+
+- Backend: https://github.com/tiendat2k3dev/exam-prep-backend  
+- Frontend (this repo): https://github.com/tiendat2k3dev/exam-prep-frontend
