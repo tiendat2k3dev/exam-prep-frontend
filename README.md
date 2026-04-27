@@ -3,9 +3,7 @@
 ## Overview
 A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, and results
 
-
-
-## Demo
+## Demo 🔗
 [![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
 
 - **Frontend (Vercel)**: [https://thitracnghiem-sandy.vercel.app](https://thitracnghiem-sandy.vercel.app)
@@ -19,6 +17,7 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 - **Reusable UI architecture**: shared `Table`, `Modal`, and layout components.
 - **JWT Authentication** with stable API integration via Axios.
 - **Pagination & Filtering** for scalable table/data management.
+- **CI/CD Pipeline**: Automated deployment via Vercel.
 
 ## Screenshots
 
@@ -60,28 +59,38 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 - Axios
 - Ant Design / Bootstrap
 - JWT Authentication
+- Vercel (CI/CD Deployment)
 
 ## Key Features
+### 🔐 Authentication & Authorization
 - Multi-role system (Admin, Teacher, Student)
+- JWT-based authentication
+- Protected routes with role-based access control
+- Password reset & verification flow
+
+### 🎨 UI/UX
 - Role-based UI rendering
-- Authentication & Authorization (JWT)
-- Protected Routes
 - Reusable Layout (Sidebar, Header)
 - Reusable components (Table, Modal, Form)
+- Responsive design
+
+### 📊 Data Management
 - Pagination & Filtering
 - Dynamic data rendering from REST API
+- State management with Context API
 
 ## Challenges & Solutions
 - Managing authentication state across modules -> solved with Context API.
 - Handling protected routes by role -> implemented route guards and role checks.
 - Avoiding duplicated UI logic -> built reusable components and shared layouts.
 
-## My Contributions
-- Developed role-specific interfaces for Admin, Teacher, and Student.
-- Built reusable layout and component patterns (Header, Sidebar, Table, Modal).
-- Implemented authentication flow with Context API and JWT-based authorization.
-- Integrated RESTful APIs using Axios.
-- Implemented routing strategy with protected routes and role-based access.
+## My Contributions (Team of 7 members)
+- **Developed UI for 15+ screens** across all three roles (Admin, Teacher, Student)
+- **Implemented authentication flow** with Context API and JWT-based authorization
+- **Built reusable component architecture** including Table, Modal, Filter, and Layout components
+- **Integrated RESTful APIs** using Axios with interceptors for token management
+- **Implemented routing strategy** with protected routes and role-based access control
+- **Collaborated with team** to ensure consistent UI/UX across the application
 
 ## Quick Setup
 ```bash
