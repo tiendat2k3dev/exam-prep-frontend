@@ -41,11 +41,11 @@ https://thitracnghiem-sandy.vercel.app
 ![404 Not Found](src/assets/images/404.png)
 
 ## Tech Stack
-ReactJS (Hooks, Context API)
-React Router (Protected Routes)
-Axios (REST API Integration)
-Ant Design / Bootstrap
-JWT Authentication
+ReactJS (Hooks, Context API)  
+React Router (Protected Routes)  
+Axios (REST API Integration)  
+Ant Design / Bootstrap  
+JWT Authentication  
 Vercel (Deployment & CI/CD)
 
 ## Key Features
