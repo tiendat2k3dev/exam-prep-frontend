@@ -49,24 +49,39 @@ JWT Authentication
 Vercel (Deployment & CI/CD)
 
 ## Key Features
-Authentication & Authorization (JWT)
-Multi-role system (Admin, Teacher, Student)
-Protected Routes for role-based access control
-Reusable component architecture (Header, Sidebar, Layout)
-Dynamic data rendering from REST APIs
-Dashboard & statistics display
-Optimized API calls to reduce unnecessary requests
-Responsive UI (Desktop & Tablet)
 
+- Authentication & Authorization (JWT)  
+- Multi-role system (Admin, Teacher, Student)  
+- Protected Routes for role-based access control  
+- Reusable component architecture (Header, Sidebar, Layout)  
+- Dynamic data rendering from REST APIs  
+- Dashboard & statistics display  
+- Optimized API calls to reduce unnecessary requests  
+- Responsive UI (Desktop & Tablet)
 
 ## My Contributions
-Developed frontend for 15+ screens across 3 roles (Admin, Teacher, Student)
-Built reusable layout system (Header, Sidebar) to reduce duplicated code
-Implemented authentication flow (Login, Forgot Password, JWT handling)
-Integrated REST APIs using Axios and handled async data rendering
-Managed routing using React Router with 10+ routes
-Optimized API calls using state management to improve performance
-Deployed application using Vercel with CI/CD pipeline
+
+- Developed frontend for 15+ screens across 3 roles (Admin, Teacher, Student)  
+- Built reusable layout system (Header, Sidebar) to reduce duplicated code  
+- Implemented authentication flow (Login, Forgot Password, JWT handling)  
+- Integrated REST APIs using Axios and handled async data rendering  
+- Managed routing using React Router with 10+ routes  
+- Optimized API calls using state management to improve performance  
+- Deployed application using Vercel with CI/CD pipeline
+
+## Challenges & Solutions
+
+- Managing authentication state  
+  → Solved using Context API for global state management  
+
+- Handling protected routes  
+  → Implemented custom route guards based on user roles  
+
+- Reducing duplicated UI code  
+  → Built reusable components and layout system  
+
+- Ensuring smooth user experience  
+  → Standardized notifications using React Toastify
 
 Challenges & Solutions
 Managing authentication state
