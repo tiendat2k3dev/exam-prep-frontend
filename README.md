@@ -88,12 +88,21 @@ Vercel (Deployment & CI/CD)
 ## Installation
 
 ```bash
-git clone https://github.com/tiendat2k3dev/exam-prep-frontend.git
+# Clone repository
+git clone https://github.com/tiendat2k3dev/exam-prep-frontend
+
+# Enter project folder
 cd exam-prep-frontend
+
+# Install dependencies
 npm install
-npm start
+
+# Start development server
+npm run dev
 ### Environment Variables
-Create `.env` in project root:
+
+Create a `.env` file in the project root:
+
 ```env
 VITE_API_BASE_URL=http://localhost:8080/api
 ```
