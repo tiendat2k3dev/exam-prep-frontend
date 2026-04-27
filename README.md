@@ -83,8 +83,6 @@ Vercel (Deployment & CI/CD)
 - Ensuring smooth user experience  
   → Standardized notifications using React Toastify
 
-
-
 ## Installation
 
 ```bash
@@ -100,7 +98,7 @@ npm install
 
 Create a `.env` file in the project root:
 
-```env
+``` .env
 VITE_API_BASE_URL=http://localhost:8080/api
 
 npm run dev
