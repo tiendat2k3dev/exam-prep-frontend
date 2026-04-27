@@ -3,21 +3,9 @@
 ## Overview
 A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, and results
 
-## Demo 🔗
-[![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://thitracnghiem-sandy.vercel.app)
-
-- **Frontend (Vercel)**: [https://thitracnghiem-sandy.vercel.app](https://thitracnghiem-sandy.vercel.app)
+## Live Demo
+https://thitracnghiem-sandy.vercel.app
 - **Backend (local)**: `http://localhost:8080/api`
-
-## Technical Highlights
-- **Multi-role system**: Admin, Teacher, Student with different permissions and views.
-- **Role-based UI rendering**: each role sees relevant modules only.
-- **Global auth state with Context API**: centralized session and user state handling.
-- **Protected Routes**: route guards for authenticated and authorized access.
-- **Reusable UI architecture**: shared `Table`, `Modal`, and layout components.
-- **JWT Authentication** with stable API integration via Axios.
-- **Pagination & Filtering** for scalable table/data management.
-- **CI/CD Pipeline**: Automated deployment via Vercel.
 
 ## Screenshots
 
@@ -54,43 +42,44 @@ A React-based web application supporting Admin, Teacher, and Student roles to ma
 ![404 Not Found](src/assets/images/404.png)
 
 ## Tech Stack
-- ReactJS (Hooks, Context API)
-- React Router
-- Axios
-- Ant Design / Bootstrap
-- JWT Authentication
-- Vercel (CI/CD Deployment)
+ReactJS (Hooks, Context API)
+React Router (Protected Routes)
+Axios (REST API Integration)
+Ant Design / Bootstrap
+JWT Authentication
+Vercel (Deployment & CI/CD)
 
 ## Key Features
-### 🔐 Authentication & Authorization
-- Multi-role system (Admin, Teacher, Student)
-- JWT-based authentication
-- Protected routes with role-based access control
-- Password reset & verification flow
+Authentication & Authorization (JWT)
+Multi-role system (Admin, Teacher, Student)
+Protected Routes for role-based access control
+Reusable component architecture (Header, Sidebar, Layout)
+Dynamic data rendering from REST APIs
+Dashboard & statistics display
+Optimized API calls to reduce unnecessary requests
+Responsive UI (Desktop & Tablet)
 
-### 🎨 UI/UX
-- Role-based UI rendering
-- Reusable Layout (Sidebar, Header)
-- Reusable components (Table, Modal, Form)
-- Responsive design
 
-### 📊 Data Management
-- Pagination & Filtering
-- Dynamic data rendering from REST API
-- State management with Context API
+## My Contributions
+Developed frontend for 15+ screens across 3 roles (Admin, Teacher, Student)
+Built reusable layout system (Header, Sidebar) to reduce duplicated code
+Implemented authentication flow (Login, Forgot Password, JWT handling)
+Integrated REST APIs using Axios and handled async data rendering
+Managed routing using React Router with 10+ routes
+Optimized API calls using state management to improve performance
+Deployed application using Vercel with CI/CD pipeline
 
-## Challenges & Solutions
-- Managing authentication state across modules -> solved with Context API.
-- Handling protected routes by role -> implemented route guards and role checks.
-- Avoiding duplicated UI logic -> built reusable components and shared layouts.
+Challenges & Solutions
+Managing authentication state
+→ Solved using Context API for global state management
+Handling protected routes
+→ Implemented custom route guards based on user roles
+Reducing duplicated UI code
+→ Built reusable components and layout system
+Ensuring smooth user experience
+→ Standardized notifications using React Toastify
 
-## My Contributions (Team of 7 members)
-- **Developed UI for 15+ screens** across all three roles (Admin, Teacher, Student)
-- **Implemented authentication flow** with Context API and JWT-based authorization
-- **Built reusable component architecture** including Table, Modal, Filter, and Layout components
-- **Integrated RESTful APIs** using Axios with interceptors for token management
-- **Implemented routing strategy** with protected routes and role-based access control
-- **Collaborated with team** to ensure consistent UI/UX across the application
+
 
 ## Quick Setup
 ```bash
