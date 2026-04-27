@@ -81,20 +81,11 @@ Ensuring smooth user experience
 
 
 
-## Quick Setup
-```bash
-# Clone repository
-git clone https://github.com/tiendat2k3dev/exam-prep-frontend
-
-# Enter project folder
+Installation
+git clone https://github.com/tiendat2k3dev/exam-prep-frontend.git
 cd exam-prep-frontend
-
-# Install dependencies
 npm install
-
-# Start development server
-npm run dev
-```
+npm start
 
 ### Environment Variables
 Create `.env` in project root:
@@ -108,7 +99,6 @@ VITE_API_BASE_URL=http://localhost:8080/api
 npm run build
 ```
 ## Project Structure
-
 ```text
 exam-prep-frontend/
 ├── .env                     # Environment variables
