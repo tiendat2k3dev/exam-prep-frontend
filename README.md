@@ -83,16 +83,6 @@ Vercel (Deployment & CI/CD)
 - Ensuring smooth user experience  
   → Standardized notifications using React Toastify
 
-Challenges & Solutions
-Managing authentication state
-→ Solved using Context API for global state management
-Handling protected routes
-→ Implemented custom route guards based on user roles
-Reducing duplicated UI code
-→ Built reusable components and layout system
-Ensuring smooth user experience
-→ Standardized notifications using React Toastify
-
 
 
 Installation
