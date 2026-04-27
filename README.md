@@ -96,9 +96,6 @@ cd exam-prep-frontend
 
 # Install dependencies
 npm install
-
-# Start development server
-npm run dev
 ### Environment Variables
 
 Create a `.env` file in the project root:
@@ -106,6 +103,9 @@ Create a `.env` file in the project root:
 ```env
 VITE_API_BASE_URL=http://localhost:8080/api
 ```
+# Start development server
+npm run dev
+
 ## Project Structure
 ```text
 exam-prep-frontend/
