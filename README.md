@@ -1,11 +1,10 @@
 # Exam Preparation System (Frontend)
 
 ## Overview
-A React-based web application supporting Admin, Teacher, and Student roles to manage exams, classes, and results
+A React-based Single Page Application (SPA) supporting Admin, Teacher, and Student roles to manage exams, classes, and learning progress efficiently
 
 ## Live Demo
 https://thitracnghiem-sandy.vercel.app
-- **Backend (local)**: `http://localhost:8080/api`
 
 ## Screenshots
 
@@ -28,7 +27,7 @@ https://thitracnghiem-sandy.vercel.app
 ![Student Management](src/assets/images/quanlyhocvien.png)
 ![Class Exam Management](src/assets/images/quanlylop.png)
 
-### Student Dashboard & Exams
+### Student Interface
 ![Student Dashboard](src/assets/images/dashboard_student.png)
 ![Practice Exam](src/assets/images/thithu.png)
 ![Official Exam](src/assets/images/thithat.png)
