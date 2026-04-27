@@ -86,17 +86,10 @@ git clone https://github.com/tiendat2k3dev/exam-prep-frontend.git
 cd exam-prep-frontend
 npm install
 npm start
-
 ### Environment Variables
 Create `.env` in project root:
-
 ```env
 VITE_API_BASE_URL=http://localhost:8080/api
-```
-
-### Build for Production
-```bash
-npm run build
 ```
 ## Project Structure
 ```text
