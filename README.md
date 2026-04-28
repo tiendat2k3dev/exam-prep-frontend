@@ -13,13 +13,13 @@ https://thitracnghiem-sandy.vercel.app
 ![Forgot Password](src/assets/images/quenmatkhau.png)
 ![Verification & Password Reset](src/assets/images/xacthucvadoimatkhau.png)
 
-### Admin Dashboard & Management
+### Admin Dashboard 
 ![Admin Dashboard](src/assets/images/dashboard.png)
 ![User Management](src/assets/images/nguoidung.png)
 ![Class Management](src/assets/images/lop.png)
 ![Teacher Assignment](src/assets/images/phancong.png)
 
-### Teacher Dashboard & Management
+### Teacher Dashboard
 ![Teacher Dashboard](src/assets/images/dashboard_teacher.png)
 ![Exam Management](src/assets/images/quanlydethi.png)
 ![Question Management](src/assets/images/quanlycauhoi.png)
