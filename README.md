@@ -46,6 +46,7 @@ React Router (Protected Routes)
 Axios (REST API Integration)  
 Ant Design / Bootstrap  
 JWT Authentication  
+Vite
 Vercel (Deployment & CI/CD)
 
 ## Key Features
