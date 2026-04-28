@@ -12,7 +12,7 @@ https://thitracnghiem-sandy.vercel.app
 ![Forgot Password](src/assets/images/quenmatkhau.png)
 ![Verification & Password Reset](src/assets/images/xacthucvadoimatkhau.png)
 
-### Admin Dashboard & Management
+### Admin Dashboard
 ![Admin Dashboard](src/assets/images/dashboard.png)
 ![User Management](src/assets/images/nguoidung.png)
 ![Class Management](src/assets/images/lop.png)
