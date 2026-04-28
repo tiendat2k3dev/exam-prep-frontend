@@ -7,9 +7,6 @@ A React-based Single Page Application (SPA) supporting Admin, Teacher, and Stude
 https://thitracnghiem-sandy.vercel.app
 
 ## Screenshots
-
-Representative screenshots across the main flows and all 3 roles: Admin, Teacher, and Student.
-
 ### Login Page
 ![Login](src/assets/images/login.png)
 ![Forgot Password](src/assets/images/quenmatkhau.png)
