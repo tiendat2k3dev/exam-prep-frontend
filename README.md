@@ -8,18 +8,20 @@ https://thitracnghiem-sandy.vercel.app
 
 ## Screenshots
 
+Representative screenshots across the main flows and all 3 roles: Admin, Teacher, and Student.
+
 ### Login Page
 ![Login](src/assets/images/login.png)
 ![Forgot Password](src/assets/images/quenmatkhau.png)
 ![Verification & Password Reset](src/assets/images/xacthucvadoimatkhau.png)
 
-### Admin Dashboard 
+### Admin Dashboard & Management
 ![Admin Dashboard](src/assets/images/dashboard.png)
 ![User Management](src/assets/images/nguoidung.png)
 ![Class Management](src/assets/images/lop.png)
 ![Teacher Assignment](src/assets/images/phancong.png)
 
-### Teacher Dashboard
+### Teacher Dashboard & Management
 ![Teacher Dashboard](src/assets/images/dashboard_teacher.png)
 ![Exam Management](src/assets/images/quanlydethi.png)
 ![Question Management](src/assets/images/quanlycauhoi.png)
@@ -27,7 +29,7 @@ https://thitracnghiem-sandy.vercel.app
 ![Student Management](src/assets/images/quanlyhocvien.png)
 ![Class Exam Management](src/assets/images/quanlylop.png)
 
-### Student Interface
+### Student Dashboard & Exam Flow
 ![Student Dashboard](src/assets/images/dashboard_student.png)
 ![Practice Exam](src/assets/images/thithu.png)
 ![Official Exam](src/assets/images/thithat.png)
