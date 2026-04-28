@@ -8,7 +8,7 @@ https://thitracnghiem-sandy.vercel.app
 
 ## Screenshots
 
-### Login & Authentication
+### Login Page
 ![Login](src/assets/images/login.png)
 ![Forgot Password](src/assets/images/quenmatkhau.png)
 ![Verification & Password Reset](src/assets/images/xacthucvadoimatkhau.png)
