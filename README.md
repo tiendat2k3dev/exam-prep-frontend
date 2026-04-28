@@ -18,7 +18,7 @@ https://thitracnghiem-sandy.vercel.app
 ![Class Management](src/assets/images/lop.png)
 ![Teacher Assignment](src/assets/images/phancong.png)
 
-### Teacher Dashboard & Management
+### Teacher Dashboard 
 ![Teacher Dashboard](src/assets/images/dashboard_teacher.png)
 ![Exam Management](src/assets/images/quanlydethi.png)
 ![Question Management](src/assets/images/quanlycauhoi.png)
